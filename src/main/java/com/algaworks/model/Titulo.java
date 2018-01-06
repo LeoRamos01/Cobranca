@@ -23,7 +23,6 @@ import org.springframework.format.annotation.NumberFormat;
 @Entity
 public class Titulo {
 
-
 	@Id
 	@GeneratedValue(strategy = GenerationType.IDENTITY)
 	private Long id;
